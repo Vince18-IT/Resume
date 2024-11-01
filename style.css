@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+body {
+    min-height: 100vh;
+    background: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    height: 1240px;
+    background: #fff;
+    margin: 50px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15), 0 12px 40px rgba(0, 0, 0, 0.1);
+
+}
+
+.top {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background: linear-gradient(45deg, #2193b0, #6dd5ed);
+    padding: 50px;
+}
+
+h2 {
+    font-size: 3em;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 0.47em;
+    letter-spacing: 0.1em;
+}
+
+h2 span {
+    font-size: 0.4em;
+    font-weight: 300;
+}
+
+.imgbox {
+    position: relative;
+    width: 100%;
+}
+
+.imgbox img {
+    width: 350px;
+    display: block;
+    position: relative;
+    bottom: 280px;
+    left: 50px;
+
+}
+
+.myprofile {
+
+    text-align: justify;
+    display: block;
+    position: relative;
+    bottom: 620px;
+    left: 430px;
+    height: 200px;
+    width: 550px;
+}
+
+.myprofile p {
+    color: #fff;
+    font-size: 1.05em;
+}
+
+.table1 {
+    display: block;
+    position: relative;
+    bottom: 450px;
+    left: 50px;
+}
+
+table {
+    width: 350px;
+    border-radius: 10px;
+
+    border: 1px solid #dddddd;
+
+    border-collapse: collapse;
+
+    overflow: hidden;
+
+}
+
+tr {
+    border: none;
+
+}
+
+td {
+    padding: 5px;
+    text-align: start;
+
+}
+
+
+th {
+    background: #2193b0;
+
+    color: white;
+
+    font-size: 1.1em;
+
+    text-transform: uppercase;
+
+    letter-spacing: 0.25em;
+
+    width: 100%;
+}
+
+td .text {
+    font-weight: 500;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+
+}
+
+tbody tr:hover {
+    background-color: #e0e0e0;
+
+}
+
+.table2 {
+    display: block;
+    position: relative;
+    left: 50px;
+    bottom: 410px;
+}
+
+.html {
+    display: inline-block;
+    position: relative;
+    top: 3px;
+}
+
+.table3 {
+    display: block;
+    position: relative;
+    left: 50px;
+    bottom: 370px;
+}
+
+.table3 td {
+    text-align: center;
+}
+
+.table4 {
+    display: block;
+    position: relative;
+    bottom: 1125px;
+    left: 430px;
+}
+
+.table4 table {
+    width: 540px;
+}
+
+.table4 td {
+    text-align: center;
+}
+
+.table5 {
+    display: block;
+    position: relative;
+    bottom: 1085px;
+    left: 430px;
+}
+
+.table5 table {
+    width: 540px;
+}
+
+
+.table6 {
+    display: block;
+    position: relative;
+    bottom: 1045px;
+    left: 430px;
+}
+
+.table6 table {
+    width: 540px;
+}
